@@ -76,4 +76,3 @@ request = requests.get(url)
 src = request.content
 
 soup = BeautifulSoup(src , "lxml")
-print(soup)
